@@ -168,10 +168,13 @@ right: 50px;
 }
 
 @media (max-width: 450px) {
+width: 130px;
 height: 213px;
 margin-bottom: 95px;
 margin-left: 7px;
 }
+
+
 @media (max-width: 320px) {
 height: 188px;
 margin-bottom: 142px;
