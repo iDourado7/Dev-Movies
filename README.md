@@ -16,7 +16,9 @@ API:
   
 [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started) — base de dados de filmes e séries
 
+
 Demonstração: 
+
 
 ✨ Funcionalidades:
 
@@ -25,6 +27,7 @@ Demonstração:
 - Página de detalhes com sinopse, gêneros, elenco (créditos) e trailer
 - Navegação entre **Filmes** e **Séries**
 - Layout **responsivo**, adaptado para desktop, tablet e mobile
+
 
 📁 Estrutura do projeto
 
@@ -56,6 +59,7 @@ src/
 | /lancamentos-series | Lançamentos de séries |
 | /populares-series | Séries populares |
 | /bem-avaliadas | Séries mais bem avaliadas |
+
 
 👤 Autor
 Desenvolvido por **[Matheus Pires Brito]** — projeto de estudo em React.
