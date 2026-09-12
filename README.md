@@ -81,9 +81,10 @@ src/
 | /bem-avaliadas | Séries mais bem avaliadas |
 <br>
 
-
+<br>
+<br>
 👤 Autor
 Desenvolvido por **[Matheus Pires Brito]** — projeto de estudo em React.
-
+<br>
 - LinkedIn: [seu perfil](https://linkedin.com/in/matheuspires27/)
 
