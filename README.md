@@ -33,13 +33,21 @@ Demonstração:
 
 src/
 ├── components/       # Componentes reutilizáveis (Header, Footer, Carousel, CardLinks, Genres, Credits, Trailer, Button...)
+<br>
 ├── containers/       # Páginas principais (Home, Detail, Filmes, Series)
+<br>
 ├── subFilmes/        # Sub-páginas de filmes (Cartaz, Lançamentos, Populares, Bem Avaliados)
+<br>
 ├── subSeries/        # Sub-páginas de séries (Exibição, Lançamentos, Populares, Bem Avaliadas)
+<br>
 ├── layout/           # Layout base e header
+<br>
 ├── routes/           # Definição de rotas (React Router)
+<br>
 ├── services/         # Integração com a API da TMDB
+<br>
 ├── styles/           # Estilos globais
+<br>
 └── utils/            # Funções utilitárias (montagem de URLs de imagem, etc.)
 
 
