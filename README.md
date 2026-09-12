@@ -55,18 +55,31 @@ src/
 
 | Rota | Descrição |
 ===========================
+<br>
 | / | Página inicial |
+<br>
 | /filmes | Listagem de filmes |
+<br>
 | /series | Listagem de séries |
+<br>
 | /detalhes/:tipo/:id | Detalhes de um filme/série específico |
+<br>
 | /cartaz | Filmes em cartaz |
+<br>
 | /lancamentos-movies | Lançamentos de filmes |
+<br>
 | /populares-movies | Filmes populares |
+<br>
 | /bem-avaliados | Filmes mais bem avaliados |
+<br>
 | /exibicao-series | Séries em exibição |
+<br>
 | /lancamentos-series | Lançamentos de séries |
+<br>
 | /populares-series | Séries populares |
+<br>
 | /bem-avaliadas | Séries mais bem avaliadas |
+<br>
 
 
 👤 Autor
