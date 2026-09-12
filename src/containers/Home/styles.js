@@ -72,7 +72,7 @@ margin-bottom: 77px;
 margin-bottom: 71px;
 }
 @media (max-width: 450px) {
-margin: 0px 14px 33px -18px;
+margin: 0px 14px 33px -22px;
 }
 @media (max-width: 320px) {
 margin: 0 16px 87px -18px;
