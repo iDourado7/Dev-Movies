@@ -68,7 +68,6 @@ box-sizing: border-box;
 img{
     width: 350px;
     border-radius: 30px;
-    max-width: 100%;
 
     @media (max-width: 1024px) {
         width: 340px;
@@ -80,24 +79,19 @@ img{
         height: 360px;
     }
     @media (max-width: 450px) {
-        width: 307px;
+        width: 132px;
         height: 244px;
         position: relative;
+         border-radius: 10px;
         right: 11px;
-    }
-
-    @media (max-width: 375px) {
-        width: 145px;
-        height: 250px;
-        margin: 0 auto;
     }
    
     @media (max-width: 320px) {
-        width: 282px;
-        height: 208px;
-        margin: 0;
+        width: 110px;
+        height: 188px;
+        border-radius: 7px;
         position: relative;
-        right: 19px;
+        right: 2px;
     }
 }
 `
@@ -173,7 +167,8 @@ max-width: 100%;
         padding-left: 12px;
         width: 100%;
         position: relative;
-        right: 45px;
+        right: 27px;
+        
 } 
 
 h2{
