@@ -40,7 +40,7 @@ span{
      padding: 4px 5px;
 }
 @media (max-width: 320px ) {
-     font-size: 7px;
+     font-size: 5px;
      padding: 4px 11px;
 }
 }

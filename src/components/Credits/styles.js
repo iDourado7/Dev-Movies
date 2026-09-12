@@ -47,7 +47,6 @@ object-fit: cover;
     height: 146px;
 }
 
-
    @media (max-width: 768px ) {
      width: 70px;
     height: 108px;
@@ -57,6 +56,7 @@ object-fit: cover;
     height: 60px;
     display: flex;
 }
+
    @media (max-width: 320px ) {
      width: 33px;
     height: 50px;
@@ -65,8 +65,19 @@ object-fit: cover;
 }
 
 p{
-text-align: center;
-margin: 5px;
+    text-align: center;
+    margin: 5px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+
+    @media (max-width: 450px ) {
+        font-size: 9px;
+        line-height: 1.2;
+    }
+    @media (max-width: 320px ) {
+        font-size: 7px;
+    }
 
 }
 `

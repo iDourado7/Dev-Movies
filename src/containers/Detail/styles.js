@@ -84,6 +84,7 @@ img{
         position: relative;
         left: -7px;
     }
+   
     @media (max-width: 320px) {
         width: 118px;
         height: 201px;
@@ -121,8 +122,9 @@ z-index: 3;
 @media (max-width: 450px) {
     top: -4%;
     left: 5%;
-    font-size: 12px;
+    font-size: 10px;
 }
+
 
 @media (max-width: 320px) {
         top: -4%;
@@ -189,9 +191,15 @@ p{
         font-size: 8px;
         margin-bottom: 17px;
   }
+    @media (max-width: 375px ) {
+        font-size: 8px;
+        margin-bottom: 17px;
+         width: 128%; 
+  }
     @media (max-width: 320px ) {
         font-size: 7px;
         margin-bottom: 17px;
+       
   }
 }
 
@@ -201,10 +209,13 @@ export const ContainerVideos = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 20px;
+padding: 66px 0;
 width: 100%;
 flex-direction: column;
 
+@media (max-width: 1024px) {
+padding-top: 16%;
+}
 
 div{
 display: flex;
