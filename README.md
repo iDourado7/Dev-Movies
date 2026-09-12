@@ -1,19 +1,90 @@
-# React + Vite
+🎬 Dev-Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação web para filmes e séries em cartaz, lançamentos, populares e mais bem avaliados — com detalhes, elenco e trailers, usando dados em tempo real da [TMDB (The Movie Database)](https://www.themoviedb.org/).
 
-Currently, two official plugins are available:
+![status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Tecnologia:
 
-## React Compiler
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Estilização:
 
-## Expanding the Oxlint configuration
+![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+API: [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started) — base de dados de filmes e séries
+
+
+Demonstração: 
+
+
+✨ Funcionalidades:
+
+- Página de 'HOME' com destaque de lançamento e carrosséis.
+- Listagens completas: **Em Cartaz**, **Lançamentos**, **Populares** e **Bem Avaliados** (filmes e séries)
+- Página de detalhes com sinopse, gêneros, elenco (créditos) e trailer
+- Navegação entre **Filmes** e **Séries**
+- Layout **responsivo**, adaptado para desktop, tablet e mobile
+
+
+📁 Estrutura do projeto
+
+src/
+├── components/       # Componentes reutilizáveis (Header, Footer, Carousel, CardLinks, Genres, Credits, Trailer, Button...)
+<br>
+├── containers/       # Páginas principais (Home, Detail, Filmes, Series)
+<br>
+├── subFilmes/        # Sub-páginas de filmes (Cartaz, Lançamentos, Populares, Bem Avaliados)
+<br>
+├── subSeries/        # Sub-páginas de séries (Exibição, Lançamentos, Populares, Bem Avaliadas)
+<br>
+├── layout/           # Layout base e header
+<br>
+├── routes/           # Definição de rotas (React Router)
+<br>
+├── services/         # Integração com a API da TMDB
+<br>
+├── styles/           # Estilos globais
+<br>
+└── utils/            # Funções utilitárias (montagem de URLs de imagem, etc.)
+
+
+🗺️ Rotas
+
+| Rota | Descrição |
+===========================
+<br>
+| / | Página inicial |
+<br>
+| /filmes | Listagem de filmes |
+<br>
+| /series | Listagem de séries |
+<br>
+| /detalhes/:tipo/:id | Detalhes de um filme/série específico |
+<br>
+| /cartaz | Filmes em cartaz |
+<br>
+| /lancamentos-movies | Lançamentos de filmes |
+<br>
+| /populares-movies | Filmes populares |
+<br>
+| /bem-avaliados | Filmes mais bem avaliados |
+<br>
+| /exibicao-series | Séries em exibição |
+<br>
+| /lancamentos-series | Lançamentos de séries |
+<br>
+| /populares-series | Séries populares |
+<br>
+| /bem-avaliadas | Séries mais bem avaliadas |
+<br>
+
+<br>
+<br>
+👤 Autor
+Desenvolvido por **[Matheus Pires Brito]** — projeto de estudo em React.
+<br>
+- LinkedIn: [seu perfil](https://linkedin.com/in/matheuspires27/)
+
