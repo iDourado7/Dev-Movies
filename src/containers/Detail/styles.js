@@ -58,42 +58,47 @@ margin-top: -28px;
 }
 `
 export const Card = styled.div`
+padding: 28px;
+display: flex;
+align-items: flex-start;
+height: 100%;
 z-index: 2;
-margin-top: 40px;
+box-sizing: border-box;
 
 img{
-height: 500px;
-border-radius: 30px;
-margin-right: 50px;   /* troca "position: relative; right: 50px" por isso */
+    width: 350px;
+    border-radius: 30px;
+    max-width: 100%;
 
-@media (max-width: 1024px) {
- height: 390px;
- margin-bottom: 70px;
-}
+    @media (max-width: 1024px) {
+        width: 340px;
+        height: 497px;
+    }
 
-@media (max-width: 768px) {
- height: 320px;
- margin-bottom: 90px;
- margin-left: 50px;
-}
+    @media (max-width: 768px) {
+        width: 264px;
+        height: 360px;
+    }
+    @media (max-width: 450px) {
+        width: 307px;
+        height: 244px;
+        position: relative;
+        right: 11px;
+    }
 
-@media (max-width: 450px) {
- height: 213px;
- margin-bottom: 95px;
- margin-left: 14px;
-}
-
-@media (max-width: 375px) {
- height: 200px;
- margin-bottom: 90px;
- margin-left: 5px;
-}
-@media (max-width: 320px) {
- height: 188px;
- margin-bottom: 142px;
- margin-left: 20px;
- border-radius: 15px;
-}
+    @media (max-width: 375px) {
+        width: 145px;
+        height: 250px;
+        margin: 0 auto;
+    }
+   
+    @media (max-width: 320px) {
+        width: 282px;
+        height: 208px;
+        margin: 0;
+        position: relative;
+        right: 19px;
+    }
 }
 `
 export const Button = styled(motion.button)`
@@ -154,19 +159,21 @@ z-index: 2;
 display: flex;
 align-items: flex-start;
 flex-direction: column;
+box-sizing: border-box;
+max-width: 100%;
 
   @media (max-width: 450px ) {
-        padding-right: 0px;
+      position: relative;
+        right: 40px;
         width: 100%;
-        position: relative;
-        right: 50px;
+        box-sizing: border-box;
 } 
  
   @media (max-width: 320px ) {
-        padding-right: 36px;
-        width: 53%;
+        padding-left: 12px;
+        width: 100%;
         position: relative;
-        right: 57px;
+        right: 45px;
 } 
 
 h2{
@@ -188,21 +195,21 @@ p{
     font-weight: 700;
     color: #fff;
     margin: 20px 0 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 
     @media (max-width: 768px ) {
         font-size: 13px;
   }
     @media (max-width: 450px ) {
-        font-size: 8px;
+        font-size: 10px;
         margin-bottom: 17px;
   }
-    @media (max-width: 375px ) {
-        font-size: 8px;
-        margin-bottom: 17px;
-         width: 128%; 
-  }
+   
     @media (max-width: 320px ) {
-        font-size: 7px;
+        font-size: 9px;
         margin-bottom: 17px;
        
   }
