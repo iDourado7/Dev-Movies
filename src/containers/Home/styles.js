@@ -75,7 +75,7 @@ margin-bottom: 71px;
 margin: 0px 14px 33px -22px;
 }
 @media (max-width: 320px) {
-margin: 0 16px 87px -18px;
+margin: 0 16px 87px -30px;
 }
 
 h1{
@@ -128,7 +128,7 @@ margin: 14px 0 20px;
 
 }
 @media (max-width: 320px) {
-font-size: 11px;
+font-size: 9px;
 
 }
 `
