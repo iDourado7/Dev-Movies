@@ -23,19 +23,20 @@ align-items: center;
 
 export const Container = styled.div`
 background: #000;
-width: 60%;
+width: 70%;
+height: 80vh;
 position: absolute;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 40px;
-max-width: 1200px;
+max-width: 1300px;
 border-radius: 30px;
 
 
 @media (max-width: 1440px) {
     width: 80%;
-    height: 92%;
+    height: 85vh;
 }
 @media (max-width: 1024px) {
         width: 82%;
@@ -72,36 +73,30 @@ iframe{
 }
 `
 export const Button = styled.button`
-    height: 20px;
-    width: 25px;
+    height: 27px;
+    width: 27px;
     background-color: red;
     color: #fff;
     border: none;
-    border-radius: 2px;
+    border-radius: 50%;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
-    position: relative;
-    bottom: 208px;
-    left: 17px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
 
-    @media (max-width: 1440px) {
-        position: relative;
-        bottom: 52%
-}
     @media (max-width: 450px) {
-        position: relative;
-        bottom: 47%;
-        padding: 0 2%;
-}
-    @media (max-width: 375px) {
-        position: relative;
-        bottom: 50%;
-        padding: 0 2%;
+        top: 16px;
+        right: 15px;
+        height: 23px;
+        width: 23px;
 }
     @media (max-width: 320px) {
-        position: relative;
-        bottom: 50%;
-        padding: 0 2%;
+        top: 16px;
+        right: 15px;
+        height: 23px;
+        width: 23px;
 }
 `
