@@ -3,8 +3,7 @@
 Aplicação web para filmes e séries em cartaz, lançamentos, populares e mais bem avaliados — com detalhes, elenco e trailers, usando dados em tempo real da [TMDB (The Movie Database)](https://www.themoviedb.org/).
 
 ![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![license](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
-
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 🛠️ Tecnologias
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
