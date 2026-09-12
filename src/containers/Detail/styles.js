@@ -58,38 +58,42 @@ margin-top: -28px;
 }
 `
 export const Card = styled.div`
-padding: 28px;
-display: flex;
-align-items: flex-start;
-height: 100%;
 z-index: 2;
-
+margin-top: 40px;
 
 img{
-    width: 350px;
-    border-radius: 30px;
+height: 500px;
+border-radius: 30px;
+margin-right: 50px;   /* troca "position: relative; right: 50px" por isso */
 
-    @media (max-width: 1024px) {
-        width: 340px;
-        height: 497px;
-    }
+@media (max-width: 1024px) {
+ height: 390px;
+ margin-bottom: 70px;
+}
 
-    @media (max-width: 768px) {
-        width: 264px;
-        height: 360px;
-    }
-    @media (max-width: 450px) {
-        width: 158px;
-        height: 275px;
-        position: relative;
-        left: -7px;
-    }
-   
-    @media (max-width: 320px) {
-        width: 118px;
-        height: 201px;
-        margin-left: 9px;
-    }
+@media (max-width: 768px) {
+ height: 320px;
+ margin-bottom: 90px;
+ margin-left: 50px;
+}
+
+@media (max-width: 450px) {
+ height: 213px;
+ margin-bottom: 95px;
+ margin-left: 14px;
+}
+
+@media (max-width: 375px) {
+ height: 200px;
+ margin-bottom: 90px;
+ margin-left: 5px;
+}
+@media (max-width: 320px) {
+ height: 188px;
+ margin-bottom: 142px;
+ margin-left: 20px;
+ border-radius: 15px;
+}
 }
 `
 export const Button = styled(motion.button)`
@@ -152,16 +156,17 @@ align-items: flex-start;
 flex-direction: column;
 
   @media (max-width: 450px ) {
-        padding-right: 36px;
+        padding-right: 0px;
         width: 100%;
         position: relative;
-        right: 32px;
+        right: 50px;
 } 
+ 
   @media (max-width: 320px ) {
         padding-right: 36px;
         width: 53%;
         position: relative;
-        right: 44px;
+        right: 57px;
 } 
 
 h2{

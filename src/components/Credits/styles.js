@@ -76,7 +76,7 @@ p{
         line-height: 1.2;
     }
     @media (max-width: 320px ) {
-        font-size: 7px;
+        font-size: 8px;
     }
 
 }
