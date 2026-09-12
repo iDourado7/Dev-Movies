@@ -8,9 +8,11 @@ Aplicação web para filmes e séries em cartaz, lançamentos, populares e mais 
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+
 Estilização:
 
 ![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+
 
 API: [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started) — base de dados de filmes e séries
 
